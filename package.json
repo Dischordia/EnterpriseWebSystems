@@ -4,7 +4,7 @@
   "description": "A package",
   "main": "myfile.js",
   "scripts": { 
-	"start": "node main_html.js"
+	"start": "node main_html.js",
     "test": "Testing"
   },
   "repository": {
