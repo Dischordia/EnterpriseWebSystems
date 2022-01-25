@@ -1,15 +1,11 @@
 {
-  "name": "package",
+  "name": "eris'_nodeonheroku",
   "version": "1.0.0",
-  "description": "A package",
-  "main": "myfile.js",
-  "scripts": { 
-	"start": "node main_html.js",
-    "test": "Testing"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dischordia/EnterpriseWebSystems.git"
+  "description": "node on heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "Testing",
@@ -19,9 +15,8 @@
     "Github"
   ],
   "author": "Eris",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dischordia/EnterpriseWebSystems/issues"
+  "dependencies": {
+    "express": "^4.17.2"
   },
-  "homepage": "https://github.com/Dischordia/EnterpriseWebSystems#readme"
+  "license": "ISC"
 }
