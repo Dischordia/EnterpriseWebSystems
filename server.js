@@ -24,12 +24,12 @@ adminRouter.get('/', function(req, res){
 });
 
 // users page (http://localhost:PORT/admin/users)
-adminRouter.get('/users', function(req, res)){
+adminRouter.get('/users', function(req, res){
 	res.send('I show all the users!'); 
 });
 
 // posts page (http://localhost:PORT/admin/posts)
-adminRouter.get('/posts', function(req, res)){
+adminRouter.get('/posts', function(req, res){
 	res.send('I show all the posts!');
 });
 
