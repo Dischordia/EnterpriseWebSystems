@@ -28,6 +28,11 @@ adminRouter.use(function(req, res, next){
 	next(); 
 });
 
+// route with parameters (http://localhost:PORT/admin/users/:name)
+adminRouter.get('/users/:name', function(req, res){
+	res.send('hello ' + req.params.name + '!');
+});
+
 // admin main page. the dashboard (http://localhost:PORT.admin)
 adminRouter.get('/', function(req, res){
 	res.send('I am the dashboard!'); 
