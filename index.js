@@ -1,6 +1,6 @@
 var http = require("http");
 fs = require('fs');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 http.createServer(function(request, response){
 	// Send the HTTP header
@@ -11,7 +11,7 @@ http.createServer(function(request, response){
 	response.writeHead*200, {
 		'Content-Type': 'text/html',
 		'Access-Control-Allow-Origin' : '*'
-		});
+		};
 	var readStream = fs.createReadStream(__dirname + '/index.html');
 	// send a message
 	readStream.pipe(response);
